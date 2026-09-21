@@ -21,7 +21,7 @@ https://github.com/user-attachments/assets/208f0f5d-fc70-4ef9-92a4-05a1dcb99d4f
 | Highlight video | 4:25, seven complete rallies, 1080p, on-court audio, ball paths and landing illustrations | [MP4, about 404 MB](https://github.com/rubyonway/TennisHighlight/releases/download/demo-v1/tennis-highlight-v5.mp4) |
 | HTML review report | The highlight video, 567 return records, landing maps, technique images, and practice suggestions | [Demo bundle, about 405 MB](https://github.com/rubyonway/TennisHighlight/releases/download/demo-v1/tennis-review-html-demo.zip) |
 
-Extract the HTML bundle and open `网球训练复盘.html`. Keep the adjacent `媒体` folder in place. The bundle already includes the highlight video, so you only need this download to explore the full demo. **The three source videos are not included.** Full-footage statistics and source timestamps remain; source-video playback controls have been removed. The sample report is in Chinese.
+Download and extract the HTML bundle, then open `网球训练复盘.html` to explore the highlights, shot statistics, landing analysis, and practice suggestions. Keep the adjacent `媒体` folder alongside the HTML file. The sample report is in Chinese.
 
 ## What it does
 
@@ -35,7 +35,7 @@ Extract the HTML bundle and open `网球训练复盘.html`. Keep the adjacent `�
 ### 2. Know what is working and what to practice next
 
 - **Forehand and backhand breakdowns:** Review shot counts, outcomes, rally-continuation rates, and unknown samples across the full footage, with records behind the numbers.
-- **Speed and movement references:** When camera calibration and continuous tracking support them, estimate average forehand/backhand ball speed and movement distance, with explicit coverage. Leave unsupported metrics blank.
+- **Speed and movement references:** When camera calibration and continuous tracking support them, estimate average forehand/backhand ball speed and movement distance, with explicit coverage.
 - **Technique review:** Examine key frames and source timestamps for visible issues in preparation, footwork, contact, and follow-through.
 - **Practice you can take to court:** Turn vague advice into concrete movement cues, repetitions, and drill targets for your next session.
 
@@ -61,17 +61,15 @@ Use $tennis-video-review to edit my tennis footage, focusing on the player close
 
 **Bring your footage. Take home your highlights and a review you can learn from.**
 
-See [SKILL.md](SKILL.md) for the complete workflow. This is a Codex skill with analysis and editing guidance plus statistics and preview helpers. It does not bundle a dedicated tennis recognition model. Results depend on camera placement, clarity, occlusion, and review quality.
+This Codex skill includes analysis and editing guidance plus statistics and preview helpers. See [SKILL.md](SKILL.md) for the complete workflow.
 
-## Be precise about the numbers
+## Every number has a source
 
-- Highlight performance does not represent the entire session. Rally-continuation rate is not a verified in-bounds rate.
-- “Hawk-Eye-style” describes the visualization. Single-camera estimates do not offer professional line-calling or radar-speed accuracy.
-- Unclear shots remain unknown. Landing points calibrated using a player's observations are labeled accordingly and cannot independently validate those same observations.
+Statistics include their sample scope, shot outcomes, and source timestamps for a traceable review. Hawk-Eye-style landing illustrations, ball speeds, and movement distances are presented as video estimates, with their evidence and coverage explained to help you understand placement and training rhythm. See [Data and report conventions](references/data-and-report.md) for details.
 
 ## Helper scripts and references
 
-Python 3.9 or later is required. The helper scripts use only the standard library. Video work uses local FFmpeg / FFprobe as needed, without requiring a corporate network or a particular cloud service.
+Python 3.9 or later is required. The helper scripts use only the standard library. Video work uses local FFmpeg / FFprobe as needed.
 
 ```bash
 # Summarize shot annotations while preserving unknown outcomes
@@ -86,4 +84,4 @@ python3 scripts/check_helpers.py
 
 Further details: [Data and report conventions](references/data-and-report.md) · [Video analysis and editing](references/video-analysis.md). These technical references are currently in Chinese.
 
-Demo video and report files are available separately in [Releases](https://github.com/rubyonway/TennisHighlight/releases/tag/demo-v1). They are not required to install the skill. Personal videos and reports generated with the skill stay local by default.
+Download demo videos and reports as needed from [Releases](https://github.com/rubyonway/TennisHighlight/releases/tag/demo-v1). Personal videos and reports generated with the skill stay local by default.
