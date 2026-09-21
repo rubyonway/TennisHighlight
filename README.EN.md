@@ -14,7 +14,7 @@ TennisHighlight is for people who love playing tennis and want to keep improving
 
 Press play below to watch the full 4:25 highlight reel. This inline preview is 720p; the original 1080p download is available below.
 
-https://github.com/user-attachments/assets/7bde8e95-79db-4937-beb9-436220e63e63
+https://github.com/user-attachments/assets/208f0f5d-fc70-4ef9-92a4-05a1dcb99d4f
 
 | Demo | What's inside | Download |
 | --- | --- | --- |

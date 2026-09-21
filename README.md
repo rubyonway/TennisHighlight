@@ -14,7 +14,7 @@ TennisHighlight 为爱打球、也想打得更好的你而设计。把网球原�
 
 点击下方播放按钮，即可观看完整 4 分 25 秒集锦。在线播放版为 720p，1080p 原画质下载见下表。
 
-https://github.com/user-attachments/assets/7bde8e95-79db-4937-beb9-436220e63e63
+https://github.com/user-attachments/assets/208f0f5d-fc70-4ef9-92a4-05a1dcb99d4f
 
 | Demo | 你会看到什么 | 下载 |
 | --- | --- | --- |
