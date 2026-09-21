@@ -12,7 +12,9 @@ TennisHighlight is for people who love playing tennis and want to keep improving
 
 ## See it in action
 
-[![Tennis highlight preview. Click to download the video.](demos/highlight-preview.jpg)](https://github.com/rubyonway/TennisHighlight/releases/download/demo-v1/tennis-highlight-v5.mp4)
+Press play below to watch the full 4:25 highlight reel. This inline preview is 720p; the original 1080p download is available below.
+
+https://github.com/user-attachments/assets/7bde8e95-79db-4937-beb9-436220e63e63
 
 | Demo | What's inside | Download |
 | --- | --- | --- |

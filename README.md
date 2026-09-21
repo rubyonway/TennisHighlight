@@ -12,7 +12,9 @@ TennisHighlight 为爱打球、也想打得更好的你而设计。把网球原�
 
 ## 先看效果
 
-[![网球高光集锦预览，点击下载视频](demos/highlight-preview.jpg)](https://github.com/rubyonway/TennisHighlight/releases/download/demo-v1/tennis-highlight-v5.mp4)
+点击下方播放按钮，即可观看完整 4 分 25 秒集锦。在线播放版为 720p，1080p 原画质下载见下表。
+
+https://github.com/user-attachments/assets/7bde8e95-79db-4937-beb9-436220e63e63
 
 | Demo | 你会看到什么 | 下载 |
 | --- | --- | --- |
