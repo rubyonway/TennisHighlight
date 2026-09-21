@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+work/
+outputs/
+*.mp4
+*.mov
+*.MP4
+*.MOV

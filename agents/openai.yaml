@@ -1,0 +1,4 @@
+interface:
+  display_name: "网球视频复盘"
+  short_description: "从网球视频制作完整回合集锦、证据分级统计、落点示意与可播放的统一复盘报告"
+  default_prompt: "使用 $tennis-video-review 处理我提供的网球视频或已有分析结果，制作完整回合集锦、可追溯统计与统一复盘报告。"
